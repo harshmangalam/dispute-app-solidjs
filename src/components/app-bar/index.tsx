@@ -12,18 +12,18 @@ export default function AppBar() {
         <div class="w-11 h-px bg-[#00000014]"></div>
       </div>
       <ul class="flex flex-col gap-2 pr-2">
-        <AppText background="#5CBFA7" text="C" notifications={"43.5k"} />
-        <AppText background="#EF5555" text="D" />
+        <AppText background="#5CBFA7" text="C"  notifications={"1"}  />
+        <AppText background="#EF5555" text="D"/>
         <AppText
           background="#000000E5"
           text="A"
           notifications={"3"}
           isActive={true}
         />
-        <AppText background="#5CBFA7" text="B" notifications={"37"} />
+        <AppText background="#5CBFA7" text="B"  />
 
         <AppText background="#4EADF1" icon={<TestIcon />} />
-        <AppText background="#4EADF1" icon={<TestIcon />} />
+        <AppText background="#4EADF1" icon={<TestIcon />}  notifications={"1"} />
         <AppText background="#4EADF1" icon={<TestIcon />} />
       </ul>
     </nav>
